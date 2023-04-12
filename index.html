@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="index.js"></script>
+    <script></script>
+  </head>
+  <body>
+    <div class="calc-content">
+      <div class="area-content">
+        <div class="divBar"></div>
+        <div class="screen-content">
+          <div class="resultado"><input id="resultado" type="text" /></div>
+        </div>
+        <div class="divBar"></div>
+        <div class="buttons-content">
+          <div class="line-buttons-content">
+            <button onclick="ac()" class="button1">AC</button>
+            <button onclick="delet()" class="button1">←</button>
+            <button onclick="percent()" class="button1">%</button>
+            <button onclick="visor('*')" class="button1">x</button>
+          </div>
+          <div class="line-buttons-content">
+            <button onclick="visor(7)" class="button1">7</button>
+            <button onclick="visor(8)" class="button1">8</button>
+            <button onclick="visor(9)" class="button1">9</button>
+            <button onclick="visor('/')" class="button1">/</button>
+          </div>
+          <div class="line-buttons-content">
+            <button onclick="visor(4)" class="button1">4</button>
+            <button onclick="visor(5)" class="button1">5</button>
+            <button onclick="visor(6)" class="button1">6</button>
+            <button onclick="visor('+')" class="button1">+</button>
+          </div>
+          <div class="line-buttons-content">
+            <button onclick="visor(1)" class="button1">1</button>
+            <button onclick="visor(2)" class="button1">2</button>
+            <button onclick="visor(3)" class="button1">3</button>
+            <button onclick="visor('-')" class="button1">-</button>
+          </div>
+          <div class="line-buttons-content">
+            <button onclick="visor(0)" class="button1">0</button>
+            <button onclick="visor('.')" class="button1">.</button>
+            <button onclick="calcula()" class="button2">=</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
